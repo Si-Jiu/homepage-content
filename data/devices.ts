@@ -18,12 +18,12 @@ export type DeviceCategory = {
 export const devicesData: DeviceCategory = {
 	手机: [
 		{
-			name: "iPhone 7 Plus",
+			name: "REDMI Turbo 5 Max",
 			image:
-				"https://www.apple.com.cn/v/iphone/compare/ak/images/overview/compare_iphone7plus_black__ejjh56vz0i2q_large.jpg",
-			specs: "黑色 / 128GB",
-			description: "日常用，使用 iOS15，已用 Dopamine 越狱",
-			link: "https://support.apple.com/zh-cn/111953",
+				"https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1769601101.43542920.png",
+			specs: "暗影黑 / 16GB+512GB",
+			description: "日常用，使用 HyperOS 3",
+			link: "https://www.mi.com/prod/redmi-turbo-5-max",
 		},
 	],
 	平板: [
