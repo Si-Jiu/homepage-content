@@ -9,4 +9,4 @@
 ## 关于主页
 
 基于:
-::github{repo="matsuzaka-yuki/Mizuki"}
+::github{repo="LyraVoid/Mizuki"}
