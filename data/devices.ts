@@ -32,7 +32,7 @@ export const devicesData: DeviceCategory = {
 			image:
 				"https://www.apple.com.cn/v/ipad/compare/ak/images/overview/ipad_9th_gen_space_gray__bmh62f2hq9iu_large.jpg",
 			specs: "深空灰色 / 256GB",
-			description: "上学/日常用，使用 iPadOS26",
+			description: "上学用，使用 iPadOS27",
 			link: "https://support.apple.com/zh-cn/111898",
 		},
 	],
