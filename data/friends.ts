@@ -15,19 +15,27 @@ export interface FriendItem {
 export const friendsData: FriendItem[] = [
 	{
 		id: 1,
-		title: "Shirone",
-		imgurl: "https://avatars.githubusercontent.com/u/225602409?v=4&s=640",
-		desc: "Material 3 设计风格的开源博客主题",
-		siteurl: "https://shirone.mysqil.com",
-		tags: ["主题", "博客"],
+		title: "mumu的中转站",
+		imgurl: "https://mumuserver.com/favicon.ico",
+		desc: "mumu的代码太好用了你知道吗（删掉",
+		siteurl: "https://mumuserver.com/",
+		tags: ["朋友"],
 	},
 	{
 		id: 2,
-		title: "Astro",
-		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
-		desc: "以内容为核心的现代静态网站构建框架",
-		siteurl: "https://astro.build",
-		tags: ["框架", "开发"],
+		title: "Charlie的主站",
+		imgurl: "https://devc.me/favicon.ico",
+		desc: "神秘Vibe Coding男，似乎不太聪明",
+		siteurl: "https://devc.me/",
+		tags: ["朋友"],
+	},
+	{
+		id: 3,
+		title: "爱搞发明的大发明家的博客",
+		imgurl: "https://blog.lhpgmc.cn/favicon.ico",
+		desc: "群友",
+		siteurl: "https://blog.lhpgmc.cn/",
+		tags: ["群友"],
 	},
 ];
 

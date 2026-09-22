@@ -30,23 +30,6 @@ export interface GameItem {
 
 export const gamesData: GameItem[] = [
 	{
-		id: "nte-neverness-to-everness",
-		name: "NTE: Neverness to Everness",
-		developer: "Hotta Studio",
-		category: "open-world",
-		status: "playing",
-		icon: "material-symbols:explore-outline-rounded",
-		rating: 4.5,
-		hours: 86,
-		platform: "PC",
-		year: "2026",
-		tags: ["Open World", "Urban", "Supernatural"],
-		description:
-			"都市超自然开放世界 RPG。作为能感知人与异象「波纹」的异能者，加入 E.T.D 第六小队，调查城市中的怪奇事件。",
-		link: "https://yh.wanmei.com/main.html",
-		featured: true,
-	},
-	{
 		id: "minecraft",
 		name: "Minecraft",
 		developer: "Mojang Studios",
@@ -54,10 +37,10 @@ export const gamesData: GameItem[] = [
 		status: "playing",
 		icon: "material-symbols:widgets-rounded",
 		rating: 5,
-		hours: 420,
+		hours: 800,
 		platform: "PC",
 		year: "2011",
-		tags: ["Sandbox", "Survival", "Building"],
+		tags: ["沙盒", "生存", "建造"],
 		description:
 			"方块世界沙盒游戏。挖掘、合成、建造，在程序生成的世界里生存闯荡——独自一人，或与朋友一起。",
 		link: "https://www.minecraft.net/",

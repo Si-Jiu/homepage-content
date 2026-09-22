@@ -37,8 +37,8 @@ links:
     children:
       - preset: Categories
       - preset: Tags
-      # 3. 自定义外部链接示例
-      - name: "GitHub 源码"
-        url: "https://github.com/LyraVoid/Shirone"
-        icon: "fa6-brands:github"
-        external: true
+      # # 3. 自定义外部链接示例
+      # - name: "GitHub 源码"
+      #   url: "https://github.com/LyraVoid/Shirone"
+      #   icon: "fa6-brands:github"
+      #   external: true

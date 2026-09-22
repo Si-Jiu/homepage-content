@@ -3,7 +3,7 @@
 # 具体技能条目清单请在 data/skills.ts 中维护
 
 # 页面总开关
-enable: true
+enable: false
 
 # 技能分类清单，数组顺序即顶部筛选标签顺序
 categories:

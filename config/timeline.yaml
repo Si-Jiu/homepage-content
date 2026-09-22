@@ -3,7 +3,7 @@
 # 具体时间线节点清单请在 data/timeline.ts 中维护
 
 # 页面总开关
-enable: true
+enable: false
 
 # 时间线分类清单
 categories:

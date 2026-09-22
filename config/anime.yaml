@@ -2,7 +2,7 @@
 # 覆盖主题的 src/config/animeConfig.ts
 
 # 页面总开关，开启后开放 /anime/ 页面入口与数据渲染
-enable: true
+enable: false
 
 # 主数据源配置
 source:

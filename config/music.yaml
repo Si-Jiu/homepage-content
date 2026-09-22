@@ -24,7 +24,7 @@ meting:
   # 资源类型："playlist"、"song"、"album"、"artist"
   type: "playlist"
   # 歌单或歌曲 ID
-  id: "14164869977"
+  id: "14175652304"
   # 自建 Meting API 地址，留空使用默认公开接口
   # api: "https://api.example.com/meting"
 

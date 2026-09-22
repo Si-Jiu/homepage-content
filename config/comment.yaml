@@ -3,10 +3,10 @@
 # 遵循零额外负担原则：关闭时不产生外部网络请求、零额外 DOM 占位与零包体积
 
 # 是否全局启用评论系统
-enable: false
+enable: true
 
 # 评论服务提供商："none" 不启用，"twikoo" 或 "giscus" 二选一
-provider: "none"
+provider: "giscus"
 
 # 是否开启视口懒加载，滚动至评论区视口时才动态拉取脚本
 lazy: true
@@ -28,13 +28,13 @@ twikoo:
 # 任一缺失时评论区静默关闭，与未启用完全等价（零额外负担）
 giscus:
   # 公开 GitHub 仓库，格式 "owner/repo"（需开启 Discussions 并安装 giscus App）
-  repo: ""
+  repo: "Si-Jiu/homepage"
   # 仓库 ID（giscus.app 生成）
-  repoId: ""
+  repoId: "R_kgDOUj8GGw"
   # Discussion 分类名，推荐 "Announcements"（仅维护者可开新讨论，避免访客误开主题帖）
   category: "Announcements"
   # 分类 ID（giscus.app 生成）
-  categoryId: ""
+  categoryId: "DIC_kwDOUj8GG84DGKoA"
   # 页面与 Discussion 的映射方式：pathname | url | title | og:title | specific | number
   mapping: "pathname"
   # 严格标题匹配（SHA-1 校验），避免 GitHub 模糊搜索误配相似标题

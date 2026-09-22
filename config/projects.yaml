@@ -3,7 +3,7 @@
 # 具体项目条目清单请在 data/projects.ts 中维护
 
 # 页面总开关
-enable: true
+enable: false
 
 # 项目分类清单，数组顺序即顶部筛选标签顺序
 categories:
