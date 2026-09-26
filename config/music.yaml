@@ -9,13 +9,13 @@ enable: true
 # - "custom"：自定义模式，直接在下方 tracks 字段中编写曲目清单
 # - "meting"：云端歌单模式，通过 Meting 接口按需加载网易云或 QQ 音乐歌单
 # - "mixed"：混合模式，同时加载本地曲目与云端歌单，首屏立即可播且支持网络降级
-provider: "mixed"
+provider: "meting"
 
 # 默认音量，范围 0.0 到 1.0
 defaultVolume: 0.7
 
 # 默认播放循环模式："sequence" 顺序播放，"loop" 单曲循环，"random" 随机播放
-defaultMode: "sequence"
+defaultMode: "random"
 
 # 云端歌单配置，用于 meting 与 mixed 模式
 meting:
