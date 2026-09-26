@@ -15,7 +15,7 @@ provider: "meting"
 defaultVolume: 0.7
 
 # 默认播放循环模式："sequence" 顺序播放，"loop" 单曲循环，"random" 随机播放
-defaultMode: "random"
+defaultMode: "sequence"
 
 # 云端歌单配置，用于 meting 与 mixed 模式
 meting:
