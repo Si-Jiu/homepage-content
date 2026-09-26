@@ -40,17 +40,17 @@ jobs:
     timeout-minutes: 5 # 设置超时时间，防止网络异常导致请求挂起消耗 Actions 额度
     steps:
       # 方式一：向主题代码仓派发 repository_dispatch 触发事件
-      - name: Dispatch build event to theme repository
-        env:
-          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
-        if: ${{ env.DISPATCH_TOKEN != '' }}
-        uses: peter-evans/repository-dispatch@v4
-        with:
-          token: ${{ env.DISPATCH_TOKEN }}
-          repository: Si-Jiu/homepage
-          event-type: content-updated
-          # 传递当前提交 SHA，使代码仓能精准按版本拉取内容，杜绝连续推送时的版本错乱
-          client-payload: '{"sha": "${{ github.sha }}"}'
+      # - name: Dispatch build event to theme repository
+      #   env:
+      #     DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+      #   if: ${{ env.DISPATCH_TOKEN != '' }}
+      #   uses: peter-evans/repository-dispatch@v4
+      #   with:
+      #     token: ${{ env.DISPATCH_TOKEN }}
+      #     repository: Si-Jiu/homepage
+      #     event-type: content-updated
+      #     # 传递当前提交 SHA，使代码仓能精准按版本拉取内容，杜绝连续推送时的版本错乱
+      #     client-payload: '{"sha": "${{ github.sha }}"}'
 
       # 方式二：触发各托管平台的 Deploy Hook（未配置对应 Secret 时自动跳过）
       - name: Trigger Cloudflare Pages deploy hook
@@ -60,23 +60,23 @@ jobs:
         run: |
           curl -s -S -X POST "${{ env.CLOUDFLARE_DEPLOY_HOOK }}"
 
-      - name: Trigger Vercel deploy hook
-        env:
-          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
-        if: ${{ env.VERCEL_DEPLOY_HOOK != '' }}
-        run: |
-          curl -s -S -X POST "${{ env.VERCEL_DEPLOY_HOOK }}"
+      # - name: Trigger Vercel deploy hook
+      #   env:
+      #     VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+      #   if: ${{ env.VERCEL_DEPLOY_HOOK != '' }}
+      #   run: |
+      #     curl -s -S -X POST "${{ env.VERCEL_DEPLOY_HOOK }}"
 
-      - name: Trigger EdgeOne deploy hook
-        env:
-          EDGEONE_DEPLOY_HOOK: ${{ secrets.EDGEONE_DEPLOY_HOOK }}
-        if: ${{ env.EDGEONE_DEPLOY_HOOK != '' }}
-        run: |
-          curl -s -S -X POST "${{ env.EDGEONE_DEPLOY_HOOK }}"
+      # - name: Trigger EdgeOne deploy hook
+      #   env:
+      #     EDGEONE_DEPLOY_HOOK: ${{ secrets.EDGEONE_DEPLOY_HOOK }}
+      #   if: ${{ env.EDGEONE_DEPLOY_HOOK != '' }}
+      #   run: |
+      #     curl -s -S -X POST "${{ env.EDGEONE_DEPLOY_HOOK }}"
 
-      - name: Trigger Netlify deploy hook
-        env:
-          NETLIFY_DEPLOY_HOOK: ${{ secrets.NETLIFY_DEPLOY_HOOK }}
-        if: ${{ env.NETLIFY_DEPLOY_HOOK != '' }}
-        run: |
-          curl -s -S -X POST "${{ env.NETLIFY_DEPLOY_HOOK }}"
+      # - name: Trigger Netlify deploy hook
+      #   env:
+      #     NETLIFY_DEPLOY_HOOK: ${{ secrets.NETLIFY_DEPLOY_HOOK }}
+      #   if: ${{ env.NETLIFY_DEPLOY_HOOK != '' }}
+      #   run: |
+      #     curl -s -S -X POST "${{ env.NETLIFY_DEPLOY_HOOK }}"
