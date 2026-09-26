@@ -2,7 +2,7 @@
 # 覆盖主题的 src/config/postListConfig.ts
 
 # 每页展示文章数量
-pageSize: 8
+pageSize: 10
 
 # 文章列表排版布局
 layout:
