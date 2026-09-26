@@ -40,7 +40,7 @@ export const devicesData: DeviceItem[] = [
 		icon: "material-symbols:laptop-mac-rounded",
 		featured: true,
 		year: "2021",
-		link: "https://www.dell.com/zh-hk/shop/dell-%E7%AD%86%E8%A8%98%E5%9E%8B%E9%9B%BB%E8%85%A6/inspiron-14-%E7%AD%86%E8%A8%98%E5%9E%8B%E9%9B%BB%E8%85%A6/spd/inspiron-14-5410-laptop",
+		link: "https://www.dell.com/support/manuals/zh-hk/inspiron-14-5410-laptop/inspiron-5410-setup-and-specifications/inspiron-14-5410-%E7%9A%84%E8%A6%8F%E6%A0%BC?guid=guid-7c9f07ce-626e-44ca-be3a-a1fb036413f9&lang=zh-cn",
 	},
 	{
 		id: "redmi-turbo-5-max",
@@ -53,6 +53,7 @@ export const devicesData: DeviceItem[] = [
 		icon: "material-symbols:phone-iphone",
 		featured: true,
 		year: "2026",
+		link: "https://www.mi.com/prod/redmi-turbo-5-max/specs",
 	},
 	{
 		id: "ipad-9",
@@ -65,5 +66,19 @@ export const devicesData: DeviceItem[] = [
 		icon: "material-symbols:phone-iphone",
 		featured: true,
 		year: "2021",
+		link: "https://support.apple.com/zh-cn/111898",
+	},
+	{
+		id: "iphone-7-plus",
+		name: "iPhone 7 Plus",
+		brand: "Apple",
+		category: "mobile",
+		status: "archived",
+		specs: "亮黑色 / 128GB",
+		description: "花屏了",
+		icon: "material-symbols:phone-iphone",
+		featured: true,
+		year: "2016",
+		link: "https://support.apple.com/zh-cn/111953",
 	},
 ];
