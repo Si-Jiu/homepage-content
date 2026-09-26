@@ -7,9 +7,16 @@
 links:
   # 1. 基础预设项，自动使用内置的多语言名称与标准图标
   - preset: Home
-  - preset: Archive
+  - preset: Posts
 
   # 2. 下拉子菜单分组
+  - name: "归档"
+    icon: "material-symbols:archive-outline-rounded"
+    children:
+      - preset: Archive
+      - preset: Categories
+      - preset: Tags
+
   - name: "链接"
     icon: "material-symbols:link-rounded"
     children:
@@ -22,21 +29,18 @@ links:
       - preset: Moments
       - preset: Anime
       - preset: Albums
+      - preset: Devices
 
   - name: "关于"
     icon: "material-symbols:info-outline-rounded"
     children:
-      - preset: About
       - preset: Skills
       - preset: Projects
-      - preset: Devices
       - preset: Timeline
 
-  - name: "更多"
-    icon: "material-symbols:more-horiz"
-    children:
-      - preset: Categories
-      - preset: Tags
+  # - name: "更多"
+  #   icon: "material-symbols:more-horiz"
+  #   children:
       # # 3. 自定义外部链接示例
       # - name: "GitHub 源码"
       #   url: "https://github.com/LyraVoid/Shirone"
