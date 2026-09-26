@@ -26,17 +26,17 @@ links:
   - name: "我的"
     icon: "material-symbols:person-outline-rounded"
     children:
-      - preset: Moments
-      - preset: Anime
-      - preset: Albums
+      # - preset: Moments
+      # - preset: Anime
+      # - preset: Albums
       - preset: Devices
 
-  - name: "关于"
-    icon: "material-symbols:info-outline-rounded"
-    children:
-      - preset: Skills
-      - preset: Projects
-      - preset: Timeline
+  # - name: "关于"
+  #   icon: "material-symbols:info-outline-rounded"
+  #   children:
+  #     - preset: Skills
+  #     - preset: Projects
+  #     - preset: Timeline
 
   # - name: "更多"
   #   icon: "material-symbols:more-horiz"
