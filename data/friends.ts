@@ -37,6 +37,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://blog.lhpgmc.cn/",
 		tags: ["群友"],
 	},
+	{
+		id: 4,
+		title: "wangzhaohan2910的主页",
+		imgurl: "https://wangzhaohan2910.github.io/favicon.ico",
+		desc: "我去是OI大佬我们有救了",
+		siteurl: "https://wangzhaohan2910.github.io/",
+		tags: ["朋友"],
+	},
 ];
 
 export function getFriendsList(): FriendItem[] {
