@@ -141,7 +141,7 @@ export const compassData = [
         label: "GitHub",
         href: "https://github.com",
         note: "全球领先的开源代码托管平台",
-        icon: "fa6-brands:github"
+        icon: "fa7-brands:github"
       },
       {
         label: "MDN Web Docs",
