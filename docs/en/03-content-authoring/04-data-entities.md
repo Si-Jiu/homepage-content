@@ -222,4 +222,3 @@ export const gamesData = [
 ```
 
 The `cover` field is optional: without it the card renders an icon tile; with it, three forms are accepted — a path relative to the content repo `assets/` (processed by the build-time image pipeline, landscape 16:9 or wider recommended), an absolute `/public` path, or a remote URL.
-

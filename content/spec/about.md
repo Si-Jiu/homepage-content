@@ -1,6 +1,6 @@
 ---
-title: "关于我"
-description: "博主个人简介与关于页面"
+title: "关于我 / About Me"
+description: "博主个人简介与关于页面 / Personal introduction and about page"
 ---
 
 # 欢迎

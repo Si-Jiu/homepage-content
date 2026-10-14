@@ -1,16 +1,23 @@
-# announcement.yaml —— 首页公告栏配置
-# 覆盖主题的 src/config/announcementConfig.ts
+# ┌──────────────────────────────────────────────────────────
+# │ 首页公告栏配置
+# │ 覆盖配置：src/config/announcementConfig.ts
+# │
+# │ Homepage announcement bar configuration
+# │ Overrides: src/config/announcementConfig.ts
+# └──────────────────────────────────────────────────────────
 
 # 公告标题，留空时使用本地化语言文件默认标题
+#
+# Announcement title; leave empty to use default from localization files
 title: ""
 
-# 公告正文内容
+# 公告正文内容 | Announcement body content
 content: "暂无"
 
-# 是否允许访客手动关闭公告
+# 是否允许访客手动关闭公告 | Allow visitors to manually dismiss the announcement
 closable: true
 
-# 公告附加链接
+# 公告附加链接 | Announcement link
 link:
   enable: false
   text: "了解更多"

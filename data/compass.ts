@@ -26,6 +26,12 @@ export const compassData: CompassShelf[] = [
 		icon: "material-symbols:build-rounded",
 		blurb: "好用的工具",
 		entries: [
+			// {
+			// 	label: "GitHub",
+			// 	href: "https://github.com",
+			// 	note: "全球领先的开源代码托管平台",
+			// 	icon: "fa7-brands:github",
+			// },
 			{
 				label: "开放中文转换",
 				href: "https://opencc.byvoid.com/",
