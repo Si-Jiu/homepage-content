@@ -65,7 +65,7 @@ export const compassData: CompassShelf[] = [
 				href: "https://www.logo.wine/",
 			},
 			{
-				label: "ipsw.me",
+				label: "苹果IPSW",
 				href: "https://ipsw.me/",
 			},
 			{
