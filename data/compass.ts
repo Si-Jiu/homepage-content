@@ -144,6 +144,10 @@ export const compassData: CompassShelf[] = [
 				label: "一张图看懂开源协议",
 				href: "https://www.ruanyifeng.com/blogimg/asset/201105/free_software_licenses.png",
 			},
+			{
+				label: "如何去 Google 化",
+				href: "https://proton.me/zh/blog/how-to-de-google",
+			},
 		],
 	},
 	{
