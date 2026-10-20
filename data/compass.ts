@@ -148,6 +148,10 @@ export const compassData: CompassShelf[] = [
 				label: "如何去 Google 化",
 				href: "https://proton.me/zh/blog/how-to-de-google",
 			},
+			{
+				label: "提问的智慧",
+				href: "https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way",
+			},
 		],
 	},
 	{
