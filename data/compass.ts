@@ -65,6 +65,10 @@ export const compassData: CompassShelf[] = [
 				href: "https://www.logo.wine/",
 			},
 			{
+				label: "ipsw.me",
+				href: "https://ipsw.me/",
+			},
+			{
 				label: "无损游戏 OST",
 				href: "https://downloads.khinsider.com/",
 			},
