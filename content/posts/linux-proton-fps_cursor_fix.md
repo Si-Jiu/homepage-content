@@ -2,7 +2,7 @@
 title: 修复 Proton 运行游戏时鼠标异常卡顿
 published: 2026-01-12
 description: '解决你明明 FPS 不低但是画面移动异常卡顿的问题'
-tags: [Garrry's Mod, Linux, Proton]
+tags: [Linux, Proton]
 category: 'Game'
 draft: false 
 lang: 'zh_CN'
