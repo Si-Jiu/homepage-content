@@ -9,7 +9,7 @@
 # └──────────────────────────────────────────────────────────
 
 # 页面总开关 | Page master switch
-enable: true
+enable: false
 
 # 时间线分类清单 | Timeline category list
 categories:

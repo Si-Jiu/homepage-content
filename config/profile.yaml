@@ -9,11 +9,11 @@
 # 头像路径，支持以 "/" 开头的绝对路径、相对路径或外部网络链接
 #
 # Avatar path; supports absolute paths starting with "/", relative paths, or external URLs
-avatar: "assets/images/demo-avatar.webp"
+avatar: "assets/images/avatar.webp"
 
 # 昵称与个人签名 | Nickname and personal signature
-name: "Shirone"
-bio: "The rain remembers what the sky forgot to say."
+name: "肆鸠"
+bio: "这个人很懒，什么都没留下"
 
 # 社交平台链接列表
 # 图标支持 Iconify 图标库名称，例如 fa7-brands:xxx、simple-icons:xxx、material-symbols:xxx
@@ -21,12 +21,15 @@ bio: "The rain remembers what the sky forgot to say."
 # Social platform links
 # Icons support Iconify library names, e.g. fa7-brands:xxx, simple-icons:xxx, material-symbols:xxx
 links:
-  - name: "Twitter"
-    icon: "fa7-brands:twitter"
-    url: "https://twitter.com"
-  - name: "Steam"
-    icon: "fa7-brands:steam"
-    url: "https://store.steampowered.com"
+  # - name: "Twitter"
+  #   icon: "fa7-brands:twitter"
+  #   url: "https://twitter.com"
+  # - name: "Steam"
+  #   icon: "fa7-brands:steam"
+  #   url: "https://store.steampowered.com"
   - name: "GitHub"
     icon: "fa7-brands:github"
-    url: "https://github.com/LyraVoid/Shirone"
+    url: "https://github.com/Si-Jiu"
+  - name: "Bilibili"
+    icon: "fa7-brands:bilibili"
+    url: "https://space.bilibili.com/443950222"

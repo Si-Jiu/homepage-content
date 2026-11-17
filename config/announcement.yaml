@@ -12,14 +12,14 @@
 title: ""
 
 # 公告正文内容 | Announcement body content
-content: "The only way to do great work is to love what you do."
+content: "暂无"
 
 # 是否允许访客手动关闭公告 | Allow visitors to manually dismiss the announcement
 closable: true
 
 # 公告附加链接 | Announcement link
 link:
-  enable: true
-  text: "GitHub"
-  url: "https://github.com"
+  enable: false
+  text: "了解更多"
+  url: "/"
   external: true

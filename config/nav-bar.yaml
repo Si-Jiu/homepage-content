@@ -17,9 +17,16 @@ links:
   #
   # Built-in presets using localized titles and icons
   - preset: Home
-  - preset: Archive
+  - preset: Posts
 
   # 2. 下拉子菜单分组 | Dropdown submenu groups
+  - name: "归档"
+    icon: "material-symbols:archive-outline-rounded"
+    children:
+      - preset: Archive
+      - preset: Categories
+      - preset: Tags
+
   - name: "链接"
     icon: "material-symbols:link-rounded"
     children:
@@ -29,26 +36,25 @@ links:
   - name: "我的"
     icon: "material-symbols:person-outline-rounded"
     children:
-      - preset: Moments
-      - preset: Anime
-      - preset: Albums
-
-  - name: "关于"
-    icon: "material-symbols:info-outline-rounded"
-    children:
-      - preset: About
-      - preset: Skills
-      - preset: Projects
+      # - preset: Moments
+      # - preset: Anime
+      # - preset: Albums
       - preset: Devices
-      - preset: Timeline
 
-  - name: "更多"
-    icon: "material-symbols:more-horiz"
-    children:
-      - preset: Categories
-      - preset: Tags
-      # 3. 自定义外部链接示例 | Custom external link example
-      - name: "GitHub 源码"
-        url: "https://github.com/LyraVoid/Shirone"
-        icon: "fa7-brands:github"
-        external: true
+  # - name: "关于"
+  #   icon: "material-symbols:info-outline-rounded"
+  #   children:
+  #     - preset: Skills
+  #     - preset: Projects
+  #     - preset: Timeline
+
+  # - name: "更多"
+  #   icon: "material-symbols:more-horiz"
+  #   children:
+  #     - preset: Categories
+  #     - preset: Tags
+  #     # 3. 自定义外部链接示例 | Custom external link example
+  #     - name: "GitHub 源码"
+  #       url: "https://github.com/LyraVoid/Shirone"
+  #       icon: "fa7-brands:github"
+  #       external: true

@@ -11,14 +11,14 @@
 # ── 站点全局基础信息 | Global Site Metadata ───────────────
 
 # 站点发布地址，必须以斜杠结尾 | Site URL, must end with a slash
-site: "https://shirone.mysqil.com/"
+site: "https://sijiu49.moe/"
 
 # 站点子路径，若部署在根目录保持 "/" 即可 | Site base path; keep "/" if deployed at root
 base: "/"
 
 # 站点标题与副标题 | Site title and subtitle
-title: "Shirone"
-subtitle: "A Material 3 anime blog"
+title: "肆鸠的主页"
+subtitle: "终于有人看了AWA"
 
 # 站点语言代码 | Site language code
 # 示例 | Examples: zh_CN, en, ja
@@ -62,7 +62,7 @@ themeColor:
   # 默认主题色相，范围 0 到 360，默认 315 为粉紫色
   #
   # Default theme hue, range 0-360; 315 is pink-purple
-  hue: 315
+  hue: 240
   # 是否对访客固定主题色，设为 true 则隐藏前台取色器
   #
   # Fix theme color for visitors; true hides the color picker
@@ -92,7 +92,7 @@ texture:
   enable: true
   # 默认纹理预设 | Default texture preset
   # none, starlight, cyber-dots, topography, geometric, sakura
-  defaultPreset: "starlight"
+  defaultPreset: "sakura"
   # 默认纹理浓度，建议范围 0.05 到 0.25 | Default texture opacity, recommended range 0.05-0.25
   defaultOpacity: 0.12
   # 是否启用背景微动效，开启减弱动效时会自动保持静止
@@ -110,8 +110,95 @@ banner:
   src:
     desktop:
       - "assets/images/banner/desktop/1.webp"
+      - "assets/images/banner/desktop/2.webp"
+      - "assets/images/banner/desktop/3.webp"
+      - "assets/images/banner/desktop/4.webp"
+      - "assets/images/banner/desktop/5.webp"
+      - "assets/images/banner/desktop/6.webp"
+      - "assets/images/banner/desktop/7.webp"
+      - "assets/images/banner/desktop/8.webp"
+      - "assets/images/banner/desktop/9.webp"
+      - "assets/images/banner/desktop/10.webp"
+      - "assets/images/banner/desktop/11.webp"
+      - "assets/images/banner/desktop/12.webp"
+      - "assets/images/banner/desktop/13.webp"
+      - "assets/images/banner/desktop/14.webp"
+      - "assets/images/banner/desktop/15.webp"
+      - "assets/images/banner/desktop/16.webp"
+      - "assets/images/banner/desktop/17.webp"
+      - "assets/images/banner/desktop/18.webp"
+      - "assets/images/banner/desktop/19.webp"
+      - "assets/images/banner/desktop/20.webp"
+      - "assets/images/banner/desktop/21.webp"
+      - "assets/images/banner/desktop/22.webp"
+      - "assets/images/banner/desktop/23.webp"
+      - "assets/images/banner/desktop/24.webp"
+      - "assets/images/banner/desktop/25.webp"
+      - "assets/images/banner/desktop/26.webp"
+      - "assets/images/banner/desktop/27.webp"
+      - "assets/images/banner/desktop/28.webp"
     mobile:
       - "assets/images/banner/mobile/1.webp"
+      - "assets/images/banner/mobile/2.webp"
+      - "assets/images/banner/mobile/3.webp"
+      - "assets/images/banner/mobile/4.webp"
+      - "assets/images/banner/mobile/5.webp"
+      - "assets/images/banner/mobile/6.webp"
+      - "assets/images/banner/mobile/7.webp"
+      - "assets/images/banner/mobile/8.webp"
+      - "assets/images/banner/mobile/9.webp"
+      - "assets/images/banner/mobile/10.webp"
+      - "assets/images/banner/mobile/11.webp"
+      - "assets/images/banner/mobile/12.webp"
+      - "assets/images/banner/mobile/13.webp"
+      - "assets/images/banner/mobile/14.webp"
+      - "assets/images/banner/mobile/15.webp"
+      - "assets/images/banner/mobile/16.webp"
+      - "assets/images/banner/mobile/17.webp"
+      - "assets/images/banner/mobile/18.webp"
+      - "assets/images/banner/mobile/19.webp"
+      - "assets/images/banner/mobile/20.webp"
+      - "assets/images/banner/mobile/21.webp"
+      - "assets/images/banner/mobile/22.webp"
+      - "assets/images/banner/mobile/23.webp"
+      - "assets/images/banner/mobile/24.webp"
+      - "assets/images/banner/mobile/25.webp"
+      - "assets/images/banner/mobile/26.webp"
+      - "assets/images/banner/mobile/27.webp"
+      - "assets/images/banner/mobile/28.webp"
+      - "assets/images/banner/mobile/29.webp"
+      - "assets/images/banner/mobile/30.webp"
+      - "assets/images/banner/mobile/31.webp"
+      - "assets/images/banner/mobile/32.webp"
+      - "assets/images/banner/mobile/33.webp"
+      - "assets/images/banner/mobile/34.webp"
+      - "assets/images/banner/mobile/35.webp"
+      - "assets/images/banner/mobile/36.webp"
+      - "assets/images/banner/mobile/37.webp"
+      - "assets/images/banner/mobile/38.webp"
+      - "assets/images/banner/mobile/39.webp"
+      - "assets/images/banner/mobile/40.webp"
+      - "assets/images/banner/mobile/41.webp"
+      - "assets/images/banner/mobile/42.webp"
+      - "assets/images/banner/mobile/43.webp"
+      - "assets/images/banner/mobile/44.webp"
+      - "assets/images/banner/mobile/45.webp"
+      - "assets/images/banner/mobile/46.webp"
+      - "assets/images/banner/mobile/47.webp"
+      - "assets/images/banner/mobile/48.webp"
+      - "assets/images/banner/mobile/49.webp"
+      - "assets/images/banner/mobile/50.webp"
+      - "assets/images/banner/mobile/51.webp"
+      - "assets/images/banner/mobile/52.webp"
+      - "assets/images/banner/mobile/53.webp"
+      - "assets/images/banner/mobile/54.webp"
+      - "assets/images/banner/mobile/55.webp"
+      - "assets/images/banner/mobile/56.webp"
+      - "assets/images/banner/mobile/57.webp"
+      - "assets/images/banner/mobile/58.webp"
+      - "assets/images/banner/mobile/59.webp"
+      - "assets/images/banner/mobile/60.webp"
+      - "assets/images/banner/mobile/61.webp"
   # 图片裁切焦点 | Image crop focus
   # top, center, bottom
   position: "center"
@@ -122,21 +209,43 @@ banner:
   # 首页横幅文字 | Home page banner text
   homeText:
     enable: true
-    title: "Shirone"
+    title: "肆鸠的主页"
     # 副标题列表，支持配置多条用于打字机切换 | Subtitle list; multiple entries cycle with typewriter effect
     subtitle:
-      - "特別なことはないけど、君がいると十分です"
-      - "今でもあなたは私の光"
-      - "君ってさ、知らないうちに私の毎日になってたよ"
-      - "君と話すと、なんか毎日がちょっと楽しくなるんだ"
-      - "今日はなんでもない日。でも、ちょっとだけいい日"
+      - "终于有人看了QWQ"
+      - "Ciallo～(∠・ω< )⌒★"
+      - "柚子厨真恶心🤮"
+      - "还是PVP大佬"
+      - "Attention, this announcement s-SYSTEM NOW UNDER MILITARY COMMAND"
+      - "我问你我能不能大声说话！😡"
+      - "UIU黑完之后是无规则状态"
+      - "他们站的太密集了"
+      - "现在他在恶意开庭"
+      - "mumu学长的恩情还不完😭"
+      - "huzuo学长的恩情还不完😭"
+      - "Raslo的恩情还不完😭"
+      - "Never gonna give you up~"
+      - "Never gonna let you down~"
+      - "还是PVP大佬"
+      - "我是高性能的嘛！"
+      - "我们西方国家的朋友们"
+      - "要为可耻共谋刺杀金杰而"
+      - "作！出！回！答！"
+      - "What was you mission in Shanghai!"
+      - "做个文明中国人"
+      - "掉皮掉肉不掉队！"
+      - "我们安全了……暂时。"
+      - "Time Limit Exceeded"
+      - "EDD mounted, let them come!"
+      - "相位不规范,死法安德森"
+      - "但是话又说回来了"
     # 打字机动效 | Typewriter animation
     typewriter:
       enable: true
       # 单字键入间隔（ms）| Typing interval per character (ms)
-      speed: 100
+      speed: 50
       # 反向删除间隔（ms）| Backspace interval (ms)
-      deleteSpeed: 50
+      deleteSpeed: 25
       # 键入完成后停留时长（ms）| Pause after typing (ms)
       pauseTime: 2000
       # 循环播放 | Loop playback
@@ -145,7 +254,7 @@ banner:
   carousel:
     enable: true
     # 切换间隔（ms），最小 3000 | Switch interval (ms), minimum 3000
-    interval: 6000
+    interval: 4500
     # 淡入淡出时长（ms）| Fade transition duration (ms)
     fadeDuration: 1200
     # 运镜动效 | Camera animation effect

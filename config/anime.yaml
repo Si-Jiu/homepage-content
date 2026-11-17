@@ -9,7 +9,7 @@
 # 页面总开关，开启后开放 /anime/ 页面入口与数据渲染
 #
 # Page master switch; opens /anime/ page entry and data rendering when enabled
-enable: true
+enable: false
 
 # ── 数据源与降级策略 | Data Source & Fallback ──────────────
 

@@ -3,10 +3,12 @@ title: "关于我 / About Me"
 description: "博主个人简介与关于页面 / Personal introduction and about page"
 ---
 
-# 关于 / About
+# 欢迎
 
-欢迎来到我的个人博客。
-Welcome to my personal blog.
+欢迎来到我的主页~
 
-这里是一个记录生活、技术沉淀与灵感分享的独立站点。
-I use this site to document my life, share technical learnings, and swap ideas.
+## 关于我
+
+一位中学生，目前在香港上学  
+正在学 C++，Arduino，网站前端&后端，Linux 以及算法  
+主要玩一些 FPS（很菜）和 Minecraft
