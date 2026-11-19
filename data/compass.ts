@@ -156,6 +156,10 @@ export const compassData: CompassShelf[] = [
 				label: "提问的智慧",
 				href: "https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way",
 			},
+			{
+				label: "中文文案排版指北",
+				href: "https://github.com/sparanoid/chinese-copywriting-guidelines",
+			},
 		],
 	},
 	{
