@@ -11,6 +11,13 @@
 # Page master switch; opens /anime/ page entry and data rendering when enabled
 enable: false
 
+# 页面每页展示条数（正整数，默认 12；省略或无效值回退 12）
+# 注意：与 providers.*.request.pageSize（同步批量大小）互不影响
+#
+# Anime entries per page (positive integer, default 12; invalid values fall back to 12)
+# Note: independent from providers.*.request.pageSize (sync batch size)
+pageSize: 12
+
 # ── 数据源与降级策略 | Data Source & Fallback ──────────────
 
 # 主数据源配置 | Primary data source configuration
@@ -58,6 +65,21 @@ providers:
     enable: false
     # 用户 ID 或个性化域名 | User ID or custom domain
     userId: ""
+    # 封面处理策略 | Cover image handling strategy
+    cover:
+      # 封面模式（默认 remote：bgm.tv 图床无防盗链，直链可直接展示）
+      # ├─ local  : 下载至本地静态目录（零第三方外链请求）
+      # ├─ remote : 直接加载远端图片链接（默认）
+      # └─ none   : 不使用封面，呈现主题渐变占位
+      #
+      # Cover mode (default remote: bgm.tv has no hotlink protection)
+      # ├─ local  : Download locally (no third-party requests)
+      # ├─ remote : Load remote image URLs directly (default)
+      # └─ none   : No covers, theme gradient placeholders
+      mode: "remote"
+      # 可选封面镜像前缀，与完整封面 URL 直接拼接（仅 remote 模式生效）
+      # Optional cover mirror prefix, concatenated with the full URL (remote mode only)
+      mirror: ""
     # 网络请求调优 | Request tuning
     request:
       # 单页抓取数量 | Items per page
@@ -91,7 +113,8 @@ providers:
       # ├─ remote : Load remote image URLs directly
       # └─ none   : No covers, theme gradient placeholders
       mode: "local"
-      # 可选封面镜像加速前缀 | Optional cover image CDN prefix
+      # 可选封面镜像前缀，与完整封面 URL 直接拼接（路径式反代或查询式代理均可）
+      # Optional cover mirror prefix, concatenated with the full cover URL
       mirror: ""
       # 是否使用 WebP 图片压缩格式 | Use WebP image compression format
       useWebp: true
